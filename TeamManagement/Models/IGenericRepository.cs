@@ -9,7 +9,7 @@ namespace TeamManagement.Models
     public interface IGenericRepository<TEntity> where TEntity : class
     {
         Task DeleteAsync(object id);
-        Task InsertAsync(TEntity entity);
-        Task UpdateAsync(TEntity entityToUpdate);
+        //Task InsertAsync(TEntity entity);
+        //Task UpdateAsync(TEntity entityToUpdate);
     }
 }

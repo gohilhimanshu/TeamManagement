@@ -8,6 +8,6 @@ namespace TeamManagement.Models
 {
     public interface IDepartmentRepository
     {
-        Task Add
+        //Task Add
     }
 }
